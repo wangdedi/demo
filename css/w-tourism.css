@@ -1,0 +1,38 @@
+body{
+	background-color: #000;
+	margin-top: 50px;
+}
+
+.filter80 {
+    background-color: rgba(245, 245, 245, 0.8);
+}
+.container{
+	
+}
+.tou-left{
+		background-color: #fff;
+		margin-top: 20px;
+		border-radius: 2px;
+}
+.tou-title{
+	font-size: 16px;
+	background-color: #bce8f1;
+	padding: 10px 15px;
+
+}
+.content{
+	margin-top: 20px;
+	background-color: rgba(231,247,255, 0.8);
+}
+.content ul li{
+	display: block;
+    min-height: 20px;
+    border-top: 1px #fff solid;
+}
+.img li{
+	float: left;
+	display: block;
+	padding: 1px;
+	border: solid #ccc 1px;
+	margin-right: 10px;
+}
