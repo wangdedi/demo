@@ -1,0 +1,20 @@
+<ul class="row">
+    <li class="col-md-2">编号</li>
+    <li class="col-md-2">图例</li>
+    <li class="col-md-3">描述</li>
+    <li class="col-md-1">地区</li>
+    <li class="col-md-1">国家</li>
+    <li class="col-md-2">时间</li>
+    <li class="col-md-1">价格</li>
+</ul>
+<ul class="row" ng-repeat="item in datas" ui-sref="details({questionId:item,aa:item.date})">
+    <li class="col-md-2">{{item.id}}</li>
+    <li class="col-md-2">
+        <img src="{{item.img}}" alt="" width="100">
+    </li>
+    <li class="col-md-3">{{item.content}}</li>
+    <li class="col-md-1">{{item.region}}</li>
+    <li class="col-md-1">{{item.country}}</li>
+    <li class="col-md-2">{{item.date}}</li>
+    <li class="col-md-1">{{item.money}}</li>
+</ul>
