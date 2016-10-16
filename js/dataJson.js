@@ -1,0 +1,76 @@
+var tourismData=[
+{
+	id:"AD564",
+	img:"img/1.png",
+	content:"美丽的加拿大大峡谷",
+	region:"美洲",
+	country:"加拿大",
+	date:"2016-12-05",
+	money:"8,888"
+},{
+	id:"HG564",
+	img:"img/2.png",
+	content:"美国五湖观光",
+	region:"美洲",
+	country:"美国",
+	date:"2016-12-09",
+	money:"10,009"
+},{
+	id:"YN564",
+	img:"img/3.png",
+	content:"越南人土风情",
+	region:"亚洲",
+	country:"越南",
+	date:"2016-12-05",
+	money:"4,888"
+},{
+	id:"ZG564",
+	img:"img/4.png",
+	content:"香格里拉大酒店",
+	region:"亚洲",
+	country:"中国",
+	date:"2016-11-05",
+	money:"2,999"
+},{
+	id:"FG564",
+	img:"img/1.png",
+	content:"巴黎埃菲尔铁塔",
+	region:"欧洲",
+	country:"法国",
+	date:"2017-01-05",
+	money:"20,008"
+}]
+var tourismData1=[
+{
+	id:"AD564",
+	img:"img/1.png",
+	content:"美丽的加拿大大峡谷1",
+	region:"美洲",
+	country:"加拿大",
+	date:"2016-12-05",
+	money:"8,888"
+},{
+	id:"HG564",
+	img:"img/2.png",
+	content:"美国五湖观光",
+	region:"美洲",
+	country:"美国",
+	date:"2016-12-09",
+	money:"10,009"
+},{
+	id:"YN564",
+	img:"img/3.png",
+	content:"越南人土风情",
+	region:"亚洲",
+	country:"越南",
+	date:"2016-12-05",
+	money:"4,888"
+},{
+	id:"FG564",
+	img:"img/1.png",
+	content:"巴黎埃菲尔铁塔",
+	region:"欧洲",
+	country:"法国",
+	date:"2017-01-05",
+	money:"20,008"
+}]
