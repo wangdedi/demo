@@ -18,6 +18,11 @@ app.config(function ($stateProvider,$urlRouterProvider) {
 		templateUrl:"templates/tab-all.html",
 		controller:"territoryCtrl"
 	})
+	.state("tab.abroad",{
+		url:"/tab-abroad",
+		templateUrl:"templates/tab-all.html",
+		controller:"abroadCtrl"
+	})
 	.state("details",{
 		url:"/details/:aa",
 		 params:{questionId:null},
