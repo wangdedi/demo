@@ -15,6 +15,4 @@ angular.module("app.controller2",[])
 .controller("detailsCtrl",['$stateParams',function($stateParams){
     console.log($stateParams.questionId);
     
-    alert(JSON.stringify($stateParams.questionId))
-    alert($stateParams.questionId.id)
 }])
