@@ -1,4 +1,4 @@
-var app=angular.module("app",["ui.router","app.controller","app.controller1","app.controller2"]);
+var app=angular.module("app",["ui.router","app.controller","app.controller1","app.controller2","app.controller3"]);
 
 app.config(function ($stateProvider,$urlRouterProvider) {
 	// body...
